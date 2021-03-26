@@ -64,6 +64,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\2.Scripts\ObstacleObj.cs" />
     <Compile Include="Assets\2.Scripts\ZombieController.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>D:/GitHub_portfolio/UnityStudy/Unity_Study/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>

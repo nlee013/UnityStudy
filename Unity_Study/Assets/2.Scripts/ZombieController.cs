@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.AI;
 
 public class ZombieController : MonoBehaviour
 {
@@ -19,6 +20,7 @@ public class ZombieController : MonoBehaviour
     eActionState _stateAction; // 현재 상태
     Animator _ctrlAni;
     Vector3 _posTarget;
+    NavMeshAgent _navAgent;
     
     float _Speed; // 적용시킬 속도 저장할 변수
     bool _isDeath;
@@ -31,6 +33,7 @@ public class ZombieController : MonoBehaviour
         _isAttack = false;
         _ctrlAni = GetComponent<Animator>();
         _posTarget = transform.position;
+        _navAgent = GetComponent<NavMeshAgent>();
     }
 
     void Start()
@@ -54,7 +57,8 @@ public class ZombieController : MonoBehaviour
                 // Debug.Log(hit.transform.gameObject.ToString() + " : " + hit.point.ToString());
                 _posTarget = hit.point;
                 transform.LookAt(_posTarget); // 타겟 바라보기
-                ChangedAction(eActionState.WALK);
+                ChangedAction(eActionState.WALK); // 애니메이션
+                _navAgent.destination = _posTarget; // 목적지 넣어줌
             }
         }
 
@@ -70,6 +74,7 @@ public class ZombieController : MonoBehaviour
                 _posTarget = hit.point;
                 transform.LookAt(_posTarget); // 타겟 바라보기
                 ChangedAction(eActionState.RUN);
+                _navAgent.destination = _posTarget;
             }
         }
 
@@ -80,7 +85,7 @@ public class ZombieController : MonoBehaviour
         {
             ChangedAction(eActionState.IDLE);
         }
-        transform.position = Vector3.MoveTowards(transform.position, _posTarget, Time.deltaTime * _Speed);
+        // transform.position = Vector3.MoveTowards(transform.position, _posTarget, Time.deltaTime * _Speed);
     }
 
     void ChangedAction(eActionState state)
@@ -90,13 +95,13 @@ public class ZombieController : MonoBehaviour
             case eActionState.WALK:
                 if (_stateAction != eActionState.ATTACK)
                 {
-                    _Speed = _walkSpeed;
+                    _navAgent.speed = _walkSpeed;
                     _stateAction = state;
                     _ctrlAni.SetInteger("AniState", (int)_stateAction);
                 }                
                 break;
             case eActionState.RUN:
-                _Speed = _moveSpeed;
+                _navAgent.speed = _moveSpeed;
                 _stateAction = state;
                 _ctrlAni.SetInteger("AniState", (int)_stateAction);
                 break;
