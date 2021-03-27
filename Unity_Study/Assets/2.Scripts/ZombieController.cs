@@ -16,6 +16,7 @@ public class ZombieController : MonoBehaviour
 
     [SerializeField] float _moveSpeed;
     [SerializeField] float _walkSpeed;
+    [SerializeField] BoxCollider _damageZone;
     
     eActionState _stateAction; // 현재 상태
     Animator _ctrlAni;
@@ -140,5 +141,15 @@ public class ZombieController : MonoBehaviour
         //{
         //    _ctrlAni.SetInteger("AniState", (int)eActionState.RUN);
         //}
+    }
+
+    private void DamageOn()
+    {
+        _damageZone.enabled = true;
+    }
+
+    private void DamageOff()
+    {
+        _damageZone.enabled = false;
     }
 }
