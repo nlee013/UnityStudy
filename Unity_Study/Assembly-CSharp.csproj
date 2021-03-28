@@ -64,6 +64,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\2.Scripts\CamerAction.cs" />
     <Compile Include="Assets\2.Scripts\ObstacleObj.cs" />
     <Compile Include="Assets\2.Scripts\ZombieController.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
