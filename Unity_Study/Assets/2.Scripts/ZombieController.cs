@@ -123,17 +123,14 @@ public class ZombieController : MonoBehaviour
             {
                 ChangedAction(eActionState.IDLE);
                 _timeWait = Random.Range(_minTime, _MaxTime);
-                Debug.Log("A");
             }
             else // 걷기
             {
                 ChangedAction(eActionState.WALK);
                 _posTarget = GetRandomPos(_startPos, _limitX, _limitZ);
                 _navAgent.destination = _posTarget;
-                Debug.Log("B");
             }
             _isSelectAi = true;
-            Debug.Log(r);
         }       
     }
 

@@ -4,15 +4,16 @@ using UnityEngine;
 
 public class ObstacleObj : MonoBehaviour
 {
+    [SerializeField] GameObject _prefabEffExplosion;
+    [SerializeField] GameObject _prefabEffHit;
+
     int _limitDamge;
 
-    // Start is called before the first frame update
     void Start()
     {
         _limitDamge = 3;
     }
 
-    // Update is called once per frame
     void Update()
     {
         
@@ -20,11 +21,17 @@ public class ObstacleObj : MonoBehaviour
 
     private void OnMouseDown()
     {
-        Debug.Log("Hit" + _limitDamge);
         _limitDamge--;
+        GameObject go = Instantiate(_prefabEffHit); // Hit 이펙트 
+        go.transform.position = transform.position; // 위치 조정
+        Destroy(go, 2);
+
         if(_limitDamge <= 0)
         {
-            Destroy(gameObject);
+            go = Instantiate(_prefabEffExplosion); // Hit 이펙트 
+            go.transform.position = transform.position; // 위치 조정
+            Destroy(go, 2);
+            Destroy(gameObject, 1);
         }
     }
 }

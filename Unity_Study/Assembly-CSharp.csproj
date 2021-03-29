@@ -66,7 +66,29 @@
   <ItemGroup>
     <Compile Include="Assets\2.Scripts\CamerAction.cs" />
     <Compile Include="Assets\2.Scripts\ObstacleObj.cs" />
+    <Compile Include="Assets\2.Scripts\PlayerObj.cs" />
     <Compile Include="Assets\2.Scripts\ZombieController.cs" />
+    <Compile Include="Assets\FireExplosionVFX\Scripts\FxSplash.cs" />
+    <Compile Include="Assets\FireExplosionVFX\Scripts\LaunchEffect.cs" />
+    <Compile Include="Assets\Particlecollection_Free samples\Plugins\Effect\Script\CameraTarget.cs" />
+    <Compile Include="Assets\Particlecollection_Free samples\Plugins\Effect\Script\EffectController.cs" />
+    <Compile Include="Assets\Particlecollection_Free samples\Plugins\Effect\Script\EffectDemo.cs" />
+    <Compile Include="Assets\Particlecollection_Free samples\Plugins\Effect\Script\EffectShaderPropertyStr.cs" />
+    <Compile Include="Assets\Particlecollection_Free samples\Plugins\Effect\Script\RenderEffect.cs" />
+    <Compile Include="Assets\Particlecollection_Free samples\Plugins\Effect\Script\TransformExtension.cs" />
+    <Compile Include="Assets\Yurowm\Demo\Scripts\Actions.cs" />
+    <Compile Include="Assets\Yurowm\Demo\Scripts\CharacterPanel.cs" />
+    <Compile Include="Assets\Yurowm\Demo\Scripts\CharacterViewer.cs" />
+    <Compile Include="Assets\Yurowm\Demo\Scripts\PlayerController.cs" />
+    <None Include="Assets\Particlecollection_Free samples\Plugins\Effect\Shader\effect_distortion_mask.shader" />
+    <None Include="Assets\Yurowm\Shaders\SkinShader.shader" />
+    <None Include="Assets\Particlecollection_Free samples\Plugins\Effect\Shader\ParticleAddSoftEffect.shader" />
+    <None Include="Assets\Particlecollection_Free samples\Plugins\Effect\Shader\Toon Blended Premmultiply.shader" />
+    <None Include="Assets\Particlecollection_Free samples\Plugins\Effect\Shader\ParticlePremultiplyBlend.shader" />
+    <None Include="Assets\Particlecollection_Free samples\READ ME.txt" />
+    <None Include="Assets\Particlecollection_Free samples\Plugins\Effect\Shader\ParticleAddEffect.shader" />
+    <None Include="Assets\Particlecollection_Free samples\Plugins\Effect\Shader\Toon Additive.shader" />
+    <None Include="Assets\Particlecollection_Free samples\Plugins\Effect\Shader\ParticleBlendEffect.shader" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>D:/GitHub_portfolio/UnityStudy/Unity_Study/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
