@@ -14,11 +14,13 @@ public class CamerAction : MonoBehaviour
     List<Transform> _ltPoints;
     GameObject _player;
     Vector3 _offset; // 카메라 y값을 올려주기 위함
+    PlaySceneManger _mngPlay;
 
     eCameraActionState _eCamState;
 
     int _index;
     float _Speed;
+    
 
     private void Awake()
     {
@@ -36,6 +38,9 @@ public class CamerAction : MonoBehaviour
 
     void Start()
     {
+        GameObject go = GameObject.FindGameObjectWithTag("PlayManger");
+        _mngPlay = go.GetComponent<PlaySceneManger>();
+
         _MovePointRoot = GameObject.FindGameObjectWithTag("CameraRoot");
 
         for (int i = 0; i < _MovePointRoot.transform.childCount; i++)
@@ -76,6 +81,9 @@ public class CamerAction : MonoBehaviour
                     if(Vector3.Distance(transform.position, v) <= 0.1f)
                     {
                         _eCamState = eCameraActionState.PLAYERSEEKER;
+
+                        // 여기서 게임스테이트를 START로 변경
+                        _mngPlay.GameStart();
                     }
                 }
             }

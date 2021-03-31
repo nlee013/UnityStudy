@@ -69,7 +69,7 @@ MonoBehaviour:
     height: 30
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
-  m_LastLoadedLayoutName: "Kyulgon_\uAC00\uB85C"
+  m_LastLoadedLayoutName: 
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -117,7 +117,7 @@ MonoBehaviour:
   m_MinSize: {x: 917, y: 448}
   m_MaxSize: {x: 22012, y: 10024}
   vertical: 0
-  controlID: 2667
+  controlID: 13
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -142,7 +142,7 @@ MonoBehaviour:
   m_MinSize: {x: 202, y: 448}
   m_MaxSize: {x: 4002, y: 8048}
   vertical: 1
-  controlID: 2795
+  controlID: 136
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -189,8 +189,8 @@ MonoBehaviour:
     y: 486
     width: 1004
     height: 461
-  m_MinSize: {x: 202, y: 224}
-  m_MaxSize: {x: 4002, y: 4024}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
@@ -450,9 +450,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -9.969964, y: 1.3235636, z: -4.8594937}
+    m_Target: {x: -25.292067, y: 3.1687503, z: 4.4171715}
     speed: 2
-    m_Value: {x: -9.969964, y: 1.3235636, z: -4.8594937}
+    m_Value: {x: -25.292067, y: 3.1687503, z: 4.4171715}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -480,13 +480,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: -0.08534236, y: 0.8753289, z: -0.16771702, w: -0.44540665}
+    m_Target: {x: -0.21255352, y: 0.07378995, z: -0.016098896, w: -0.9742263}
     speed: 2
-    m_Value: {x: -0.08534236, y: 0.8753289, z: -0.16771702, w: -0.44540665}
+    m_Value: {x: -0.21255352, y: 0.07378995, z: -0.016098896, w: -0.9742263}
   m_Size:
-    m_Target: 19.76223
+    m_Target: 12.325719
     speed: 2
-    m_Value: 19.76223
+    m_Value: 12.325719
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -529,7 +529,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: c6eafdff06ecfdff46edfdffb6eefdff9eeffdffdef0fdffbef1fdff9e24feffba8ffeffea30ffff86a1ffffdefbffff72bf000042c100008cc5000038c8000036330100166d0100
+      m_ExpandedIDs: c6afffff6ebaffff44ddffffdefbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -591,36 +591,36 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Particlecollection_Free samples/Prefab/Hit
+    - Assets/2.Scripts
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Particlecollection_Free samples/Prefab/Hit
+  - Assets/2.Scripts
   m_LastFoldersGridSize: 16
   m_LastProjectPath: D:\GitHub_portfolio\UnityStudy\Unity_Study
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: a6380100
-    m_LastClickedID: 80038
-    m_ExpandedIDs: 000000002c26000076390000dc8d00007e3801009238010000ca9a3b
+    m_SelectedIDs: 822d0000
+    m_LastClickedID: 11650
+    m_ExpandedIDs: 00000000da2600006c280000ea280000162a000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: CGY_SciFi_Interface
+      m_OriginalName: CGY_SciFi_Interface
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 10208
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 0}
+      m_ClientGUIView: {fileID: 10}
     m_SearchString: 
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
@@ -632,7 +632,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000002c2600007639000000ca9a3b
+    m_ExpandedIDs: 00000000da2600002e2700006c280000ea280000162a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -718,7 +718,7 @@ MonoBehaviour:
   m_LockTracker:
     m_IsLocked: 0
   m_PreviewResizer:
-    m_CachedPref: 217
+    m_CachedPref: -100
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_PreviewWindow: {fileID: 0}

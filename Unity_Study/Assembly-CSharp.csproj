@@ -67,6 +67,7 @@
     <Compile Include="Assets\2.Scripts\CamerAction.cs" />
     <Compile Include="Assets\2.Scripts\ObstacleObj.cs" />
     <Compile Include="Assets\2.Scripts\PlayerObj.cs" />
+    <Compile Include="Assets\2.Scripts\PlaySceneManger.cs" />
     <Compile Include="Assets\2.Scripts\ZombieController.cs" />
     <Compile Include="Assets\FireExplosionVFX\Scripts\FxSplash.cs" />
     <Compile Include="Assets\FireExplosionVFX\Scripts\LaunchEffect.cs" />
