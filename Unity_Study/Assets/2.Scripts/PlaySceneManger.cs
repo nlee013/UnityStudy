@@ -17,6 +17,7 @@ public class PlaySceneManger : MonoBehaviour
     [SerializeField] Image _helpBG;
     [SerializeField] Text _helpText;
     [SerializeField] Text _TimeText;
+    [SerializeField] GameObject _prefabResultWnd;
 
     eGameState _eState;
     float _timeCheck;
@@ -27,7 +28,11 @@ public class PlaySceneManger : MonoBehaviour
     private void Awake()
     {
         _timeCheck = 0;
+#if UNITY_EDITOR
+        _timePass = 10;
+#else
         _timePass = 60;
+#endif
     }
 
     void Start()
@@ -131,5 +136,9 @@ public class PlaySceneManger : MonoBehaviour
         {
             Destroy(zombies[i].gameObject);
         }
+
+        GameObject go = Instantiate(_prefabResultWnd);
+        Resultwnd re = go.GetComponent<Resultwnd>();
+        re.OpenWnd(3);
     }
 }

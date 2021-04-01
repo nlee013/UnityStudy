@@ -4938,6 +4938,8 @@ MonoBehaviour:
   _helpBG: {fileID: 665294066}
   _helpText: {fileID: 512255520}
   _TimeText: {fileID: 1033931076}
+  _prefabResultWnd: {fileID: 1810602502723416353, guid: 19b9f54c9b3617249a355d403255c38c,
+    type: 3}
 --- !u!4 &1459808224
 Transform:
   m_ObjectHideFlags: 0
