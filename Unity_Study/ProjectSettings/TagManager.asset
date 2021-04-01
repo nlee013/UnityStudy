@@ -8,6 +8,7 @@ TagManager:
   - Map
   - PlayManger
   - Zombie
+  - SoundManager
   layers:
   - Default
   - TransparentFX

@@ -34,6 +34,7 @@ public class PlayerObj : MonoBehaviour
         {
             Ray r = Camera.main.ScreenPointToRay(Input.mousePosition);
             RaycastHit hit;
+            SoundManager._instance.PlayEffect(SoundManager.eTypeEffect.FIRE);
 
             if(Physics.Raycast(r, out hit))
             {
@@ -54,6 +55,7 @@ public class PlayerObj : MonoBehaviour
             {
                 GetComponent<BoxCollider>().enabled = false;
                 _isDead = true;
+                SoundManager._instance.PlayEffect(gameObject, SoundManager.eTypeEffect.ZOMBIE_DIE);
             }
         }
     }

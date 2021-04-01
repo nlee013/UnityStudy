@@ -23,6 +23,8 @@ public class PlaySceneManger : MonoBehaviour
     float _timeCheck;
     float _timePass; // 시간 저장
 
+    // SoundManager _mngSound;
+
     PlayerObj _pc;
 
     private void Awake()
@@ -37,6 +39,8 @@ public class PlaySceneManger : MonoBehaviour
 
     void Start()
     {
+        //GameObject go = GameObject.FindGameObjectWithTag("SoundManager");
+        //_mngSound = go.GetComponent<SoundManager>();
         _helpBG.enabled = false;
         _helpText.enabled = false;
 
@@ -97,6 +101,7 @@ public class PlaySceneManger : MonoBehaviour
         _helpText.enabled = true;
 
         _helpText.text = "READY!";
+        SoundManager._instance.PlayBGM(SoundManager.eTypeBGM.STAGE1);
     }
 
     public void GameStart()
