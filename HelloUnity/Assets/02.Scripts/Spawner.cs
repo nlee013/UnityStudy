@@ -20,8 +20,7 @@ public class Spawner : MonoBehaviour
     }
 
     void Update()
-    {
-        
+    {        
         timeAfterSpawn += Time.deltaTime;
 
         if(timeAfterSpawn > spawnRate)

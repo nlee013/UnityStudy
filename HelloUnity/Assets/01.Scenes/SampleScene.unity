@@ -790,7 +790,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &953044192
 Transform:
   m_ObjectHideFlags: 0
@@ -1218,20 +1218,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameoverText: {fileID: 522354718}
-  spawnerPrefabs: {fileID: 0}
+  spawnerPrefabs: {fileID: 9216491354998594947, guid: d6e71e5248ab94b448e920d657aa190f, type: 3}
   timeText: {fileID: 471312655}
   recordText: {fileID: 450892247}
-  enemey: {fileID: 9216491354998594947, guid: d6e71e5248ab94b448e920d657aa190f, type: 3}
-  createEnemy:
-  - {fileID: 1928431031}
-  - {fileID: 489548793}
-  - {fileID: 698227656}
-  - {fileID: 1528692760}
-  - {fileID: 466041235}
-  - {fileID: 383971493}
-  - {fileID: 9804354}
-  - {fileID: 1916484021}
-  create_time: 3
+  level: {fileID: 1686906638}
+  bullerSpawnerPrefab: {fileID: 9216491354998594947, guid: d6e71e5248ab94b448e920d657aa190f, type: 3}
 --- !u!4 &1621793186
 Transform:
   m_ObjectHideFlags: 0
@@ -1351,6 +1342,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1686906639}
+  - component: {fileID: 1686906640}
   m_Layer: 0
   m_Name: Level
   m_TagString: Untagged
@@ -1377,6 +1369,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1686906640
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1686906638}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bed1f97d4c77a54eb13664e32204bc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotationSpeed: 60
 --- !u!1 &1709986052
 GameObject:
   m_ObjectHideFlags: 0
