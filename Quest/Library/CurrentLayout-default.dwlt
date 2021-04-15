@@ -19,9 +19,9 @@ MonoBehaviour:
     width: 1706.6667
     height: 984
   m_ShowMode: 4
-  m_Title: Hierarchy
+  m_Title: Inspector
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 875, y: 492}
+  m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -100,10 +100,10 @@ MonoBehaviour:
     y: 30
     width: 1707
     height: 934
-  m_MinSize: {x: 908, y: 442}
-  m_MaxSize: {x: 22003, y: 10021}
+  m_MinSize: {x: 912, y: 442}
+  m_MaxSize: {x: 22007, y: 10021}
   vertical: 0
-  controlID: 133
+  controlID: 125
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -149,7 +149,7 @@ MonoBehaviour:
   m_MinSize: {x: 201, y: 442}
   m_MaxSize: {x: 4001, y: 8042}
   vertical: 1
-  controlID: 138
+  controlID: 42
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -169,8 +169,8 @@ MonoBehaviour:
     y: 0
     width: 231
     height: 934
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 12}
   m_Panes:
   - {fileID: 12}
@@ -221,8 +221,8 @@ MonoBehaviour:
     y: 0
     width: 311
     height: 934
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 277, y: 71}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
@@ -247,8 +247,8 @@ MonoBehaviour:
     y: 0
     width: 902
     height: 479
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -310,21 +310,21 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 26cbffff44cbffff46cbffffc6ccffffe4ccffffe8cdffff40ddffff94ddffffbadeffffd8deffffdadefffff8f3ffff16f4ffff20f5ffff48fbffffd43e0000fa3e0000103f000070470000544d00007e4d0000944d0000024e00002e580000625800009e580000a25d0000e05d0000
+      m_ExpandedIDs: 04f3ffff22f3ffff22f4ffff4cfbfffff83e0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: GameObject
-        m_OriginalName: GameObject
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 22430
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 7}
       m_SearchString: 
@@ -422,9 +422,9 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 8a410000
-    m_LastClickedID: 16778
-    m_ExpandedIDs: 000000007c4100007e410000804100006c4300006e43000070430000ffffff7f
+    m_SelectedIDs: d8410000
+    m_LastClickedID: 16856
+    m_ExpandedIDs: 00000000ca410000cc410000ce410000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -452,7 +452,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000007c4100007e41000080410000
+    m_ExpandedIDs: 00000000ca410000cc410000ce410000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -483,15 +483,15 @@ MonoBehaviour:
     m_ExpandedInstanceIDs: 
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: MenuUI
-      m_OriginalName: MenuUI
+      m_Name: MovementProvider
+      m_OriginalName: MovementProvider
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 20370
+      m_UserData: 16882
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
       m_OriginalEventType: 0
@@ -674,7 +674,7 @@ MonoBehaviour:
       m_Fade:
         m_Target: 0
         speed: 2
-        m_Value: 1
+        m_Value: 0
       m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
       m_Pivot: {x: 0, y: 0, z: 0}
       m_Size: {x: 1, y: 1}
@@ -684,11 +684,11 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: -0.11113346, y: 0.5341675, z: -0.071088776, w: -0.8350316}
     speed: 2
-    m_Value: {x: -0.11123903, y: 0.53290987, z: -0.07092139, w: -0.83582485}
+    m_Value: {x: -0.111132525, y: 0.534163, z: -0.07108817, w: -0.83502454}
   m_Size:
     m_Target: 12.616096
     speed: 2
-    m_Value: 12.072819
+    m_Value: 12.616096
   m_Ortho:
     m_Target: 0
     speed: 2

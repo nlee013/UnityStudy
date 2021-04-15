@@ -60,7 +60,7 @@ public class CustomController : MonoBehaviour // 퀘스트 + 다른 컨트롤러
         {
             availableDevice = devices[0]; // 첫번째 디바이스를 availbleDevice에 넣어줌
 
-            string name = "맴에 안들어";
+            string name = "";
             if ("Oculus Touch Controller - Left" == availableDevice.name)
             {
                 name = "Oculus Quest Controller - Left";
