@@ -17,6 +17,10 @@ public class CustomController : MonoBehaviour // 퀘스트 + 다른 컨트롤러
 
     private Animator handModelAnimator; // 핸드 모델 애니메이션 변수
 
+    public GameObject HandGun;
+
+    bool triggerButton;
+
     void Start()
     {
         TryInitialize();
@@ -41,6 +45,32 @@ public class CustomController : MonoBehaviour // 퀘스트 + 다른 컨트롤러
             handinstance.SetActive(true);
             controllerInstance.SetActive(false);
             UpdateHandAnimation(); // 핸드 애니메이션은 여기서만 수행
+        }
+
+        if(HandGun != null)
+        {
+            bool menuButtonValue;
+            if(availableDevice.TryGetFeatureValue(CommonUsages.triggerButton, out menuButtonValue) && menuButtonValue)
+            {
+                if(triggerButton == false)
+                {
+                    HandGun.GetComponent<SimpleShoot>().Shoot();
+                    triggerButton = true;
+                }                
+            }
+            else
+            {
+                triggerButton = false;
+            }
+        }
+
+        if(FindObjectOfType<GameManger>().isGameOver)
+        {
+            bool menuButtonValue;
+            if(availableDevice.TryGetFeatureValue(CommonUsages.menuButton, out menuButtonValue) && menuButtonValue)
+            {
+                FindObjectOfType<GameManger>().RestartGame();
+            }
         }
     }
 
