@@ -2,6 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.XR;
+using UnityEngine.XR.Interaction.Toolkit.UI;
+
+public enum HandState
+{
+    NONE =0,
+    RIGHT,
+    LEFT
+};
 
 public class CustomController : MonoBehaviour // 퀘스트 + 다른 컨트롤러
 {
@@ -20,6 +28,8 @@ public class CustomController : MonoBehaviour // 퀘스트 + 다른 컨트롤러
     public GameObject HandGun;
 
     bool triggerButton;
+
+    public HandState currentHand;
 
     void Start()
     {
@@ -52,7 +62,7 @@ public class CustomController : MonoBehaviour // 퀘스트 + 다른 컨트롤러
             bool menuButtonValue;
             if(availableDevice.TryGetFeatureValue(CommonUsages.triggerButton, out menuButtonValue) && menuButtonValue)
             {
-                if(triggerButton == false)
+                if(triggerButton == false && currentHand == HandGun.GetComponent<SimpleShoot>().currentGrab)
                 {
                     HandGun.GetComponent<SimpleShoot>().Shoot();
                     triggerButton = true;
@@ -89,21 +99,25 @@ public class CustomController : MonoBehaviour // 퀘스트 + 다른 컨트롤러
         if(devices.Count > 0) // 디바이스가 있으면
         {
             availableDevice = devices[0]; // 첫번째 디바이스를 availbleDevice에 넣어줌
+            GameObject currentControllerModel;
 
-            string name = "";
-            if ("Oculus Touch Controller - Left" == availableDevice.name)
+            if(availableDevice.name.Contains("Left"))
             {
-                name = "Oculus Quest Controller - Left";
-            }
-            else if ("Oculus Touch Controller - Right" == availableDevice.name)
-            {
-                name = "Oculus Quest Controller - Right";
-            }
+                currentControllerModel = controllerModels[1];
+                currentHand = HandState.LEFT;
 
-            // currentControllerMode에 넣어준 컨트롤러 모델에 controller함수를 만들어서
-            // 컨트롤러 이름이 availableDevice에 저장된 이름과 같은 것을 찾아서 넣어줌
-            GameObject currentControllerModel = controllerModels.Find(controller => controller.name == availableDevice.name);
-            
+            }
+            else if(availableDevice.name.Contains("Right"))
+            {
+                currentControllerModel = controllerModels[2];
+                currentHand = HandState.RIGHT;
+            }
+            else
+            {
+                currentControllerModel = null;
+                currentHand = HandState.NONE;
+            }      
+
             if(currentControllerModel) // currentControllerModel이 있으면
             {
                 controllerInstance = Instantiate(currentControllerModel, transform); // controllerInstance에 인스턴스해 줌

@@ -32,7 +32,7 @@ public class GameManger : MonoBehaviour
     {
         score += value;
     }
-
+        
     public void EndGame()
     {
         isGameOver = true;
