@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Moster
   - Monster
+  - Monster2
+  - PUNCH
   layers:
   - Default
   - TransparentFX

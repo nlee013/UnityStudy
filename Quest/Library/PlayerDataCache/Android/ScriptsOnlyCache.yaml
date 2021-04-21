@@ -29,6 +29,7 @@ ScriptsOnlyBuild:
     - UnityEngine.XR.Interaction.Toolkit.XRInteractorLineVisual
     - UnityEngine.XR.Interaction.Toolkit.XRRayInteractor
     - UnityEngine.XR.Interaction.Toolkit.XRRig
+    - UnityEngine.XR.Interaction.Toolkit.XRSocketInteractor
     Unity.XR.Management.Editor.dll:
     - UnityEditor.XR.Management.XRGeneralSettingsPerBuildTarget
     Unity.XR.Management.dll:
@@ -40,10 +41,8 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -137,6 +136,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2688}
     - Class: 114
+      Script: {instanceID: 2692}
+    - Class: 114
       Script: {instanceID: 2808}
     - Class: 114
       Script: {instanceID: 2872}
@@ -155,11 +156,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 4060}
     - Class: 114
-      Script: {instanceID: 4440}
+      Script: {instanceID: 4328}
     - Class: 114
-      Script: {instanceID: 4692}
+      Script: {instanceID: 4442}
     - Class: 114
-      Script: {instanceID: 26044}
+      Script: {instanceID: 4694}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -1007,6 +1008,12 @@ ScriptsOnlyBuild:
     className: TMP_SpriteAsset
   - hash:
       serializedVersion: 2
+      Hash: 49ec315faac77938cd548bd3fd7e6de4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MonsterCtrl
+  - hash:
+      serializedVersion: 2
       Hash: e7a73f5f78ba6445195ec23b74a1ce2d
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -1077,12 +1084,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.XR.Interaction.Toolkit.dll
     namespaceName: UnityEngine.XR.Interaction.Toolkit.UI
     className: XRUIInputModule
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: MonsterCtrl
   platform: 13
   scenePathNames:
   - Assets/01.Scenes/SampleScene.unity

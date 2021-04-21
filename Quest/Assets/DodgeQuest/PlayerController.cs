@@ -13,7 +13,7 @@ public class PlayerController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        playerRigidbody = GetComponent<Rigidbody>();
+        //playerRigidbody = GetComponent<Rigidbody>();
     }
 
     // Update is called once per frame
@@ -37,5 +37,13 @@ public class PlayerController : MonoBehaviour
         gameObject.SetActive(false);
 
         FindObjectOfType<GameManger>().EndGame();
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if(other.gameObject.tag == "PUNCH")
+        {
+            GetDamage(10.0f);
+        }
     }
 }

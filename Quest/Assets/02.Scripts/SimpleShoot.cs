@@ -31,10 +31,10 @@ public class SimpleShoot : MonoBehaviour
 
     private void Update()
     {
-        if(Input.GetButtonDown("Fire1"))
-        {
-            GetComponent<Animator>().SetTrigger("Fire");
-        }
+        //if(Input.GetButtonDown("Fire1"))
+        //{
+        //    GetComponent<Animator>().SetTrigger("Fire");
+        //}
     }
 
     public void GrabGun()
