@@ -1,0 +1,470 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.3f1 (76626098c1c4) revision 7758432'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home Single Language; OS build 19042.928; Version 2009; 64bit' Language: 'ko' Physical Memory: 7916 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+D:\Unity_Version\2020.3.3f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/zlzls/Desktop/Quest2
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+50001
+Successfully changed project path to: C:/Users/zlzls/Desktop/Quest2
+C:/Users/zlzls/Desktop/Quest2
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 102.72 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 2.47 ms.
+Initialize engine version: 2020.3.3f1 (76626098c1c4)
+[Subsystems] Discovering subsystems at path D:/Unity_Version/2020.3.3f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/zlzls/Desktop/Quest2/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) Iris(R) Xe Graphics (ID=0x9a49)
+    Vendor:   
+    VRAM:     3958 MB
+    Driver:   27.20.100.8853
+Initialize mono
+Mono path[0] = 'D:/Unity_Version/2020.3.3f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity_Version/2020.3.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/Unity_Version/2020.3.3f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56572
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity_Version/2020.3.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001973 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 64.94 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.36 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.113 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005240 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 64.70 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.34 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+[XR] OculusXRPlugin: registering subsystems
+[XR] Unable to register display lifecyle provider: [1]
+[XR] Oculus Input lifecycle provider registered.
+[XR] Unable to register input lifecyle provider: [1]
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\user\Downloads\Quest2_ShootingAlien\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\user\Downloads\Quest2_ShootingAlien\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: C:/Users/user/Downloads/Quest2_ShootingAlien/Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.871 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.27 ms.
+Unloading 1656 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 80.6 MB.
+System memory in use after: 80.7 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2110.
+Total: 2.916000 ms (FindLiveObjects: 0.123100 ms CreateObjectMapping: 0.041500 ms MarkObjects: 2.583400 ms  DeleteObjects: 0.167000 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Hovl Studio/Procedural fire/Materials/SparkSphere.mat
+  artifactKey: Guid(20e729147a4dad247abfc2305c3dd963) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Procedural fire/Materials/SparkSphere.mat using Guid(20e729147a4dad247abfc2305c3dd963) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fc41d828cc732902789fee7d0aa8f88') in 0.236486 seconds
+  Import took 0.241459 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000478 seconds.
+  path: Assets/Hovl Studio/Procedural fire/Prefabs/Explosion.prefab
+  artifactKey: Guid(67a684e320da6e7439421a07e3fa265c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Procedural fire/Prefabs/Explosion.prefab using Guid(67a684e320da6e7439421a07e3fa265c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba565bbd07052fd4b7d5672f5a6831c9') in 0.025429 seconds
+  Import took 0.031489 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.395148 seconds.
+  path: Assets/Hovl Studio/Procedural fire/Materials/FireSphere1.mat
+  artifactKey: Guid(14fab0de6c54324468738e7b38a88207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Procedural fire/Materials/FireSphere1.mat using Guid(14fab0de6c54324468738e7b38a88207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a7d3164d853df1dee20b0b8f9bbee01') in 0.038095 seconds
+  Import took 0.051671 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 42.788297 seconds.
+  path: Assets/Hovl Studio/Procedural fire/Prefabs/Magic fire pro blue.prefab
+  artifactKey: Guid(c590b17884b119046bc6412066500b7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Procedural fire/Prefabs/Magic fire pro blue.prefab using Guid(c590b17884b119046bc6412066500b7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df0f101e5ff18a13114bc096d0329ebc') in 0.007669 seconds
+  Import took 0.013993 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004939 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.36 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\user\Downloads\Quest2_ShootingAlien\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\user\Downloads\Quest2_ShootingAlien\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: C:/Users/user/Downloads/Quest2_ShootingAlien/Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.769 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.32 ms.
+Unloading 1641 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 83.4 MB.
+System memory in use after: 83.5 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2154.
+Total: 2.836800 ms (FindLiveObjects: 0.362100 ms CreateObjectMapping: 0.131000 ms MarkObjects: 2.317500 ms  DeleteObjects: 0.023600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.21 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.22 ms.
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 51.2 MB.
+System memory in use after: 51.3 MB.
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 2154.
+Total: 3.454600 ms (FindLiveObjects: 0.243700 ms CreateObjectMapping: 0.105700 ms MarkObjects: 3.079800 ms  DeleteObjects: 0.023500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1086.629223 seconds.
+  path: Assets/Hovl Studio/Procedural fire/Prefabs/Magic fire pro green.prefab
+  artifactKey: Guid(3d35e81bdc5955041be098ef22e82a3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Procedural fire/Prefabs/Magic fire pro green.prefab using Guid(3d35e81bdc5955041be098ef22e82a3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4e97caa2ee0479108191e6879405d5e') in 0.047654 seconds
+  Import took 0.063478 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.13 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.15 ms.
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 51.4 MB.
+System memory in use after: 51.5 MB.
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 2154.
+Total: 6.726200 ms (FindLiveObjects: 0.271500 ms CreateObjectMapping: 0.071800 ms MarkObjects: 6.344100 ms  DeleteObjects: 0.036400 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.32 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.34 ms.
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 51.4 MB.
+System memory in use after: 51.5 MB.
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 2154.
+Total: 4.717300 ms (FindLiveObjects: 0.269000 ms CreateObjectMapping: 0.063100 ms MarkObjects: 4.349200 ms  DeleteObjects: 0.033700 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.60 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.39 ms.
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 51.4 MB.
+System memory in use after: 51.5 MB.
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 2154.
+Total: 6.947500 ms (FindLiveObjects: 0.393400 ms CreateObjectMapping: 0.135200 ms MarkObjects: 6.391800 ms  DeleteObjects: 0.024800 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 15.15 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.84 ms.
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 51.4 MB.
+System memory in use after: 51.5 MB.
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 2154.
+Total: 18.496600 ms (FindLiveObjects: 0.824600 ms CreateObjectMapping: 0.254800 ms MarkObjects: 17.345300 ms  DeleteObjects: 0.065100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1572.248009 seconds.
+  path: Assets/Dungeon_stone_textures/Textures
+  artifactKey: Guid(b532c1684baf7bb48aef7e15a4bf526d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon_stone_textures/Textures using Guid(b532c1684baf7bb48aef7e15a4bf526d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c82a140924ab44aa957bc779a7cb0907') in 0.004551 seconds
+  Import took 0.009784 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.361891 seconds.
+  path: Assets/Dungeon_stone_textures/Textures/stone_tile.png
+  artifactKey: Guid(cd1393fcd2c4c5944bd8cd7ab256cf2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon_stone_textures/Textures/stone_tile.png using Guid(cd1393fcd2c4c5944bd8cd7ab256cf2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44e9f386ca716ceafecdc6fef9a0abf7') in 0.281635 seconds
+  Import took 0.287548 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.480944 seconds.
+  path: Assets/Dungeon_stone_textures/Textures/stone_tile2.png
+  artifactKey: Guid(8f1b4006f3941294e81fed9dd5e35685) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon_stone_textures/Textures/stone_tile2.png using Guid(8f1b4006f3941294e81fed9dd5e35685) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe4c13bda0872bab9ae73cf0a947facd') in 0.029799 seconds
+  Import took 0.042661 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.38 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.12 ms.
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 51.4 MB.
+System memory in use after: 51.6 MB.
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 2155.
+Total: 4.314100 ms (FindLiveObjects: 0.251500 ms CreateObjectMapping: 0.160500 ms MarkObjects: 3.858000 ms  DeleteObjects: 0.042300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 78.061687 seconds.
+  path: Assets/Dungeon_stone_textures/Textures/stone_tile2_normal.png
+  artifactKey: Guid(3f1118b1bd8d4fb408c3a44732e1e70c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon_stone_textures/Textures/stone_tile2_normal.png using Guid(3f1118b1bd8d4fb408c3a44732e1e70c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d9985f3b35103a9b8849454bcc1d510') in 0.030432 seconds
+  Import took 0.036213 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.524199 seconds.
+  path: Assets/Dungeon_stone_textures/Textures/stone_tile_normal.png
+  artifactKey: Guid(996150ba62885444aac67ba38c366e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon_stone_textures/Textures/stone_tile_normal.png using Guid(996150ba62885444aac67ba38c366e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5311d6f24853a9b4813b8163c95bf544') in 0.037772 seconds
+  Import took 0.043509 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.16 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.24 ms.
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 51.5 MB.
+System memory in use after: 51.6 MB.
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 2155.
+Total: 6.171400 ms (FindLiveObjects: 0.320300 ms CreateObjectMapping: 0.127500 ms MarkObjects: 5.698100 ms  DeleteObjects: 0.023600 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.15 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.23 ms.
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 51.5 MB.
+System memory in use after: 51.6 MB.
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 2155.
+Total: 3.838200 ms (FindLiveObjects: 0.299600 ms CreateObjectMapping: 0.077200 ms MarkObjects: 3.427100 ms  DeleteObjects: 0.030600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013720 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.34 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.17 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\user\Downloads\Quest2_ShootingAlien\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\user\Downloads\Quest2_ShootingAlien\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: C:/Users/user/Downloads/Quest2_ShootingAlien/Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.907 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.38 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.13 ms.
+Unloading 1641 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 83.4 MB.
+System memory in use after: 83.5 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2159.
+Total: 1.649600 ms (FindLiveObjects: 0.134200 ms CreateObjectMapping: 0.033600 ms MarkObjects: 1.463200 ms  DeleteObjects: 0.017300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.39 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.13 ms.
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 51.3 MB.
+System memory in use after: 51.4 MB.
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 2159.
+Total: 2.835400 ms (FindLiveObjects: 0.219400 ms CreateObjectMapping: 0.056100 ms MarkObjects: 2.542700 ms  DeleteObjects: 0.015800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1892.518668 seconds.
+  path: Assets/DodgeQuest/BulletSpawner.cs
+  artifactKey: Guid(fce9be00069120b4ba50f6e53263b74a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DodgeQuest/BulletSpawner.cs using Guid(fce9be00069120b4ba50f6e53263b74a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f8eca340f5697646ae5de717c4c97c5') in 0.015717 seconds
+  Import took 0.022043 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010902 seconds.
+  path: Assets/DodgeQuest/BulletSpawner.cs
+  artifactKey: Guid(fce9be00069120b4ba50f6e53263b74a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DodgeQuest/BulletSpawner.cs using Guid(fce9be00069120b4ba50f6e53263b74a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f8eca340f5697646ae5de717c4c97c5') in 0.002896 seconds
+  Import took 0.005354 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.299360 seconds.
+  path: Assets/DodgeQuest/BulletSpawner.prefab
+  artifactKey: Guid(a17b94089209a064b94f340a0bd89968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DodgeQuest/BulletSpawner.prefab using Guid(a17b94089209a064b94f340a0bd89968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '437a2dd19403688170368b2aa3aa1d37') in 0.080584 seconds
+  Import took 0.083964 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010714 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.16 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\user\Downloads\Quest2_ShootingAlien\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\user\Downloads\Quest2_ShootingAlien\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: C:/Users/user/Downloads/Quest2_ShootingAlien/Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.807 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.35 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+Unloading 1641 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 83.5 MB.
+System memory in use after: 83.6 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2166.
+Total: 2.486700 ms (FindLiveObjects: 0.142500 ms CreateObjectMapping: 0.039700 ms MarkObjects: 2.279400 ms  DeleteObjects: 0.023400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002549 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.25 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\user\Downloads\Quest2_ShootingAlien\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\user\Downloads\Quest2_ShootingAlien\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: C:/Users/user/Downloads/Quest2_ShootingAlien/Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.792 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.14 ms.
+Unloading 1641 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 83.5 MB.
+System memory in use after: 83.6 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2170.
+Total: 1.766200 ms (FindLiveObjects: 0.174700 ms CreateObjectMapping: 0.047200 ms MarkObjects: 1.519500 ms  DeleteObjects: 0.022800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 5.89 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.34 ms.
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 51.4 MB.
+System memory in use after: 51.5 MB.
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 2170.
+Total: 10.614000 ms (FindLiveObjects: 0.411500 ms CreateObjectMapping: 0.163900 ms MarkObjects: 9.992000 ms  DeleteObjects: 0.042700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.048163 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.14 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.55 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\user\Downloads\Quest2_ShootingAlien\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\user\Downloads\Quest2_ShootingAlien\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: C:/Users/user/Downloads/Quest2_ShootingAlien/Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  4.937 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.75 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 1.12 ms.
+Unloading 1641 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 83.6 MB.
+System memory in use after: 83.7 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2174.
+Total: 7.729100 ms (FindLiveObjects: 0.481100 ms CreateObjectMapping: 0.147100 ms MarkObjects: 7.020900 ms  DeleteObjects: 0.075400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 7.78 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.82 ms.
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 51.4 MB.
+System memory in use after: 51.5 MB.
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 2174.
+Total: 13.472400 ms (FindLiveObjects: 0.747500 ms CreateObjectMapping: 0.235200 ms MarkObjects: 12.418800 ms  DeleteObjects: 0.064400 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
