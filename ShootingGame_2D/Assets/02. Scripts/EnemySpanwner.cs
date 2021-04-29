@@ -28,10 +28,9 @@ public class EnemySpanwner : MonoBehaviour
 
             // 적이 생성후 적 생성 시간 다시 설정
             apperTime = Random.Range(minTime, maxTime);
-        }
-
-        
+        }        
     }
+
 
 
     //[SerializeField] private GameObject EnemyPrefab;

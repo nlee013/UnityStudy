@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 5488480328988361095}
   - component: {fileID: 2333355670555951304}
   - component: {fileID: 1565480186}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Enemy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -109,7 +109,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4797277e1a441494e9874c122cc65e8d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  EnemyPrefabs: {fileID: 5488480328988361092}
   EnemySpeed: 5
 --- !u!54 &1565480186
 Rigidbody:
