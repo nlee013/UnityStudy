@@ -1,0 +1,7 @@
+C:\Users\DMC CONET\Desktop\C#\Abstract_EX\Abstract_EX\bin\Debug\Abstract_EX.exe.config
+C:\Users\DMC CONET\Desktop\C#\Abstract_EX\Abstract_EX\bin\Debug\Abstract_EX.exe
+C:\Users\DMC CONET\Desktop\C#\Abstract_EX\Abstract_EX\bin\Debug\Abstract_EX.pdb
+C:\Users\DMC CONET\Desktop\C#\Abstract_EX\Abstract_EX\obj\Debug\Abstract_EX.csprojAssemblyReference.cache
+C:\Users\DMC CONET\Desktop\C#\Abstract_EX\Abstract_EX\obj\Debug\Abstract_EX.csproj.CoreCompileInputs.cache
+C:\Users\DMC CONET\Desktop\C#\Abstract_EX\Abstract_EX\obj\Debug\Abstract_EX.exe
+C:\Users\DMC CONET\Desktop\C#\Abstract_EX\Abstract_EX\obj\Debug\Abstract_EX.pdb
