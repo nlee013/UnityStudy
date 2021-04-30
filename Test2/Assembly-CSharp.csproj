@@ -59,6 +59,12 @@
     <Compile Include="Assets\Test.cs" />
     <Compile Include="Assets\SwitchTest.cs" />
     <Compile Include="Assets\Raycast.cs" />
+    <Compile Include="Assets\ReturnTest.cs" />
+    <Compile Include="Assets\FindAndFall.cs" />
+    <Compile Include="Assets\CreateionOrigin.cs" />
+    <Compile Include="Assets\OperateTest.cs" />
+    <Compile Include="Assets\ActionTest.cs" />
+    <Compile Include="Assets\MTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

@@ -59,9 +59,10 @@
     <Compile Include="Assets\02. Scripts\EnemyMove.cs" />
     <Compile Include="Assets\02. Scripts\PlayerMove.cs" />
     <Compile Include="Assets\02. Scripts\EnemySpanwner.cs" />
+    <Compile Include="Assets\02. Scripts\DestroyBar.cs" />
     <Compile Include="Assets\02. Scripts\Missile.cs" />
     <Compile Include="Assets\02. Scripts\PlayerFire.cs" />
-    <Compile Include="Assets\02. Scripts\DestroyBar.cs" />
+    <Compile Include="Assets\02. Scripts\Test2.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
