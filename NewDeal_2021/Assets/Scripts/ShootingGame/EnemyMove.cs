@@ -27,10 +27,20 @@ public class EnemyMove : MonoBehaviour
     public GameObject hitEffect;
     public Transform Enemypos;
 
+    ScoreManager sm;
+
     // 방향 변수
     Vector3 dir;
 
     AudioClip EnemyAudio;
+
+    //private void Awake()
+    //{
+    //    GameObject GO = GameObject.Find("ScoreManager");
+
+    //    sm = GO.GetComponent<ScoreManager>();
+    //    sm.bestScoreTxt.text = "BestScore : " + (int)sm.bestScore;
+    //}
 
     void Start()
     {
@@ -58,6 +68,8 @@ public class EnemyMove : MonoBehaviour
 
         EnemyAudio = GetComponent<AudioClip>();
 
+       
+
     }
 
     void Update()
@@ -82,22 +94,52 @@ public class EnemyMove : MonoBehaviour
         //자기자신 gameobject 파괴
         Destroy(gameObject);
 
-        GameObject GO = GameObject.Find("ScoreManager");
+        // 1. ScoreManager 객체를 가져오자
+        GameObject go = GameObject.Find("ScoreManager");
 
-        ScoreManager sm = GO.GetComponent<ScoreManager>();
+        // 2. ScoreManager의 <ScoreManager>컴포넌트를 가져오기
+        ScoreManager sm = go.GetComponent<ScoreManager>();
 
-        sm.currentScore++;
-        sm.currentScoreTxt.text = "현재점수 : " + sm.currentScore;
+        #region 점수계산을 ScoreManager가 할수있도록 SetScore함수로 이동
+        // 3. ScoreManager의 currentScore를 증가
+        // sm.currentScore++;
 
-        sm.bestScore = (int)PlayerPrefs.GetFloat("BestScore");
+        // 4. UI Text에 currentScore를 표시
+        // sm.currentScoreTxt.text = "현재 점수 : " + sm.currentScore;
 
-        if(sm.currentScore > sm.bestScore)
-        {
-            sm.bestScore = sm.currentScore;
-            PlayerPrefs.SetFloat("BestScore", sm.bestScore);
-        }
+        // 최고점수 비교
+        // 만약 현재점수가 최고 점수보다 크다면
+        // if (sm.currentScore > sm.bestScore)
+        // {
+        // 새로운 최고 점수로 표시
+        // sm.bestScore = sm.currentScore;
 
-        sm.bestScoreTxt.text = "BestScore : " + (int)sm.bestScore;
+        // ScoreManager의 Text에 표시
+        // sm.bestScoreTxt.text = "최고 점수 : " + sm.bestScore;
+
+        // PlayerPrefs에 최고점수 저장
+        // PlayerPrefs.SetInt("Best Score", sm.bestScore);
+        // }
+        #endregion
+
+        // ScoreManager 의 get set함수를 호출하여 처리하도록 하자
+        int temp = sm.GetScore();
+        sm.SetScore(temp++);
+
+
+        // 점수 구현
+        //sm.currentScore++;
+        //sm.currentScoreTxt.text = "현재점수 : " + sm.currentScore;
+
+        //sm.bestScore = (int)PlayerPrefs.GetFloat("BestScore");
+
+        //if(sm.currentScore > sm.bestScore)
+        //{
+        //    sm.bestScore = sm.currentScore;
+        //    PlayerPrefs.SetFloat("BestScore", sm.bestScore);
+        //}
+
+        //sm.bestScoreTxt.text = "BestScore : " + (int)sm.bestScore;
     }
 
     private void Explosion()

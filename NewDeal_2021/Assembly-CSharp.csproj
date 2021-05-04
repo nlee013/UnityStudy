@@ -62,11 +62,18 @@
     <Compile Include="Assets\Scripts\ShootingGame\Missile.cs" />
     <Compile Include="Assets\Scripts\Algo\Algo2.cs" />
     <Compile Include="Assets\Scripts\Algo\Algo3.cs" />
+    <Compile Include="Assets\Scripts\ShootingGame\ScoreManager.cs" />
     <Compile Include="Assets\Scripts\ShootingGame\EnemyMove.cs" />
     <Compile Include="Assets\Scripts\ShootingGame\BackGround.cs" />
     <Compile Include="Assets\Scripts\ShootingGame\DestoryBar.cs" />
     <Compile Include="Assets\Scripts\Algo\Algo1.cs" />
-    <Compile Include="Assets\Scripts\ShootingGame\ScoreManager.cs" />
+    <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\DynamicJoystick.cs" />
+    <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\FloatingJoystick.cs" />
+    <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\VariableJoystick.cs" />
+    <Compile Include="Assets\Joystick Pack\Scripts\Base\Joystick.cs" />
+    <Compile Include="Assets\Joystick Pack\Examples\JoystickPlayerExample.cs" />
+    <Compile Include="Assets\Joystick Pack\Examples\JoystickSetterExample.cs" />
+    <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\FixedJoystick.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\SimpleFX\Materials\UnlitVertexColour_Alpha.shader" />

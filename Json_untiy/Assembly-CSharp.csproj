@@ -56,13 +56,13 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\LoadTest.cs" />
-    <Compile Include="Assets\SaveFormatTest.cs" />
-    <Compile Include="Assets\SaveTest.cs" />
-    <Compile Include="Assets\SaveImageFormatTest.cs" />
-    <Compile Include="Assets\SaveImageTest.cs" />
-    <Compile Include="Assets\LoadImage.cs" />
-    <Compile Include="Assets\ImageFileInformation.cs" />
+    <Compile Include="Assets\Scripts\ChangeColor.cs" />
+    <Compile Include="Assets\Scripts\FileSaveTest.cs" />
+    <Compile Include="Assets\Scripts\FileDataFormat.cs" />
+    <Compile Include="Assets\Scripts\FileLoad.cs" />
+    <Compile Include="Assets\Scripts\FileImageLoad.cs" />
+    <Compile Include="Assets\Scripts\FileImageSave.cs" />
+    <Compile Include="Assets\Scripts\DelegateSampe.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\JsonDotNet\link.xml" />
