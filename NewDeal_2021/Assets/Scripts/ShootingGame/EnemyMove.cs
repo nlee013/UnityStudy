@@ -30,6 +30,8 @@ public class EnemyMove : MonoBehaviour
     // 방향 변수
     Vector3 dir;
 
+    AudioClip EnemyAudio;
+
     void Start()
     {
 
@@ -54,6 +56,7 @@ public class EnemyMove : MonoBehaviour
             dir = Vector3.down;
         }
 
+        EnemyAudio = GetComponent<AudioClip>();
 
     }
 
@@ -79,12 +82,28 @@ public class EnemyMove : MonoBehaviour
         //자기자신 gameobject 파괴
         Destroy(gameObject);
 
+        GameObject GO = GameObject.Find("ScoreManager");
+
+        ScoreManager sm = GO.GetComponent<ScoreManager>();
+
+        sm.currentScore++;
+        sm.currentScoreTxt.text = "현재점수 : " + sm.currentScore;
+
+        sm.bestScore = (int)PlayerPrefs.GetFloat("BestScore");
+
+        if(sm.currentScore > sm.bestScore)
+        {
+            sm.bestScore = sm.currentScore;
+            PlayerPrefs.SetFloat("BestScore", sm.bestScore);
+        }
+
+        sm.bestScoreTxt.text = "BestScore : " + (int)sm.bestScore;
     }
 
     private void Explosion()
     {
         GameObject Exp = Instantiate(hitEffect, transform.position, Quaternion.identity);
-        Destroy(Exp, 2f);
+        Destroy(Exp);
         Destroy(gameObject);
     }
 }

@@ -29,7 +29,7 @@ public class NewBehaviourScript : MonoBehaviour
 
     string PickMiddleWords(string word)
     {
-        string middleword = "";
+        string middleword = ""; // √ ±‚»≠
         int Half = word.Length / 2;
 
         if(word.Length % 2 ==0)
