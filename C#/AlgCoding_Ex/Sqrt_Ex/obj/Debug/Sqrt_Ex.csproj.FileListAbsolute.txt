@@ -1,0 +1,7 @@
+D:\Unity_Project\C#\Sqrt_Ex\Sqrt_Ex\bin\Debug\Sqrt_Ex.exe.config
+D:\Unity_Project\C#\Sqrt_Ex\Sqrt_Ex\bin\Debug\Sqrt_Ex.exe
+D:\Unity_Project\C#\Sqrt_Ex\Sqrt_Ex\bin\Debug\Sqrt_Ex.pdb
+D:\Unity_Project\C#\Sqrt_Ex\Sqrt_Ex\obj\Debug\Sqrt_Ex.csprojAssemblyReference.cache
+D:\Unity_Project\C#\Sqrt_Ex\Sqrt_Ex\obj\Debug\Sqrt_Ex.csproj.CoreCompileInputs.cache
+D:\Unity_Project\C#\Sqrt_Ex\Sqrt_Ex\obj\Debug\Sqrt_Ex.exe
+D:\Unity_Project\C#\Sqrt_Ex\Sqrt_Ex\obj\Debug\Sqrt_Ex.pdb
