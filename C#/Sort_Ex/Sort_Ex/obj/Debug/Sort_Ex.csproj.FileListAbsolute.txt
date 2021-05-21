@@ -1,0 +1,7 @@
+D:\Unity_Project\UnityStudy\C#\Sort_Ex\Sort_Ex\bin\Debug\Sort_Ex.exe.config
+D:\Unity_Project\UnityStudy\C#\Sort_Ex\Sort_Ex\bin\Debug\Sort_Ex.exe
+D:\Unity_Project\UnityStudy\C#\Sort_Ex\Sort_Ex\bin\Debug\Sort_Ex.pdb
+D:\Unity_Project\UnityStudy\C#\Sort_Ex\Sort_Ex\obj\Debug\Sort_Ex.csprojAssemblyReference.cache
+D:\Unity_Project\UnityStudy\C#\Sort_Ex\Sort_Ex\obj\Debug\Sort_Ex.csproj.CoreCompileInputs.cache
+D:\Unity_Project\UnityStudy\C#\Sort_Ex\Sort_Ex\obj\Debug\Sort_Ex.exe
+D:\Unity_Project\UnityStudy\C#\Sort_Ex\Sort_Ex\obj\Debug\Sort_Ex.pdb
