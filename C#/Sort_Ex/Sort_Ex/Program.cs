@@ -6,18 +6,20 @@ using System.Threading.Tasks;
 
 namespace Sort_Ex
 {
+
+
     class Program
     {
         static void Main(string[] args)
         {
             //Console.WriteLine($"My : {Sqrt(2)}");
             //Console.WriteLine($"Math.Sqrt : {Math.Sqrt(2)}");
-            int[] a = { 4, 8, 5, 7, 2, 23 };
-            var sorted = SelectionSort(a);
-            foreach (var v in sorted)
-            {
-                Console.WriteLine(v);
-            }
+            //int[] a = { 4, 8, 5, 7, 2, 23 };
+            //var sorted = SelectionSort(a);
+            //foreach (var v in sorted)
+            //{
+            //    Console.WriteLine(v);
+            //}
 
 
             //int temp = 0;
@@ -100,6 +102,8 @@ namespace Sort_Ex
 
             return Xn;
         }
+
+
 
     }
 }

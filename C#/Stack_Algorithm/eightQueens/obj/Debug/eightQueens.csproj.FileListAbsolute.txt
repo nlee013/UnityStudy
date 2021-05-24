@@ -1,0 +1,7 @@
+C:\Users\zlzls\Desktop\eightQueens\eightQueens\obj\Debug\eightQueens.csprojAssemblyReference.cache
+C:\Users\zlzls\Desktop\eightQueens\eightQueens\obj\Debug\eightQueens.csproj.CoreCompileInputs.cache
+C:\Users\zlzls\Desktop\eightQueens\eightQueens\bin\Debug\eightQueens.exe.config
+C:\Users\zlzls\Desktop\eightQueens\eightQueens\bin\Debug\eightQueens.exe
+C:\Users\zlzls\Desktop\eightQueens\eightQueens\bin\Debug\eightQueens.pdb
+C:\Users\zlzls\Desktop\eightQueens\eightQueens\obj\Debug\eightQueens.exe
+C:\Users\zlzls\Desktop\eightQueens\eightQueens\obj\Debug\eightQueens.pdb
